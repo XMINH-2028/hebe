@@ -170,7 +170,7 @@ window.onload = function () {
 
 	$$('header > .title .fa-times').addEventListener('click',()=>{
 		$$('header .title').remove();
-		$$('header .content-pc').style.top='0'
+		$$('header .content-pc').style.top='0';
 		count_title = 0;
 	})
 
