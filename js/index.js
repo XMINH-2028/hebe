@@ -170,6 +170,7 @@ window.onload = function () {
 
 	$$('header > .title .fa-times').addEventListener('click',()=>{
 		$$('header .title').remove();
+		$$('header .content').style.top='0';
 		count_title = 0;
 	})
 
